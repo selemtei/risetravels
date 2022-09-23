@@ -9,7 +9,8 @@
     "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@emotion/cache": "^11.7.1",
