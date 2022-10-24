@@ -26,7 +26,7 @@ const exps: Array<Exp> = [
     value: 'A+',
   },
   {
-    label: 'Knowledgeable',
+    label: 'Customer Satisfaction',
     value: 'A+',
   },
 ]
@@ -138,7 +138,7 @@ const HomeHero: FC = () => {
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
                 <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
                   {
-                    "Let's take an online course to improve your skills in a different way, you can set your own study time according to your learning speed. So you san study comfortable and absorb tge material easily."
+                    "We are here to better the travel experiences of our customers by offering high-quality services that meet those needs."
                   }
                 </Typography>
               </Box>
@@ -210,8 +210,8 @@ const HomeHero: FC = () => {
         {/* Experience */}
         <Box sx={{ boxShadow: 2, py: 4, px: 7, borderRadius: 4 }}>
           <Grid container spacing={2}>
-            {exps.map((item) => (
-              <Grid key={item.value} item xs={12} md={4}>
+            {exps.map((item, index) => (
+              <Grid key={`${index}-${item.value}`} item xs={12} md={4}>
                 <ExpItem item={item} />
               </Grid>
             ))}

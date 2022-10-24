@@ -19,7 +19,7 @@ const Footer: FC = () => {
                 RiseTravels
               </Typography>
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
-                RiseTravels is a travel agency that was established since April 2022. Our main goal is to provide the
+                RiseTravels is a travel agency with more than five years of experience. Our main goal is to provide the
                 best travel experiences to our customers.
               </Typography>
               <FooterSocialLinks />

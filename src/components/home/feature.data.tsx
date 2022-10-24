@@ -13,22 +13,22 @@ interface Data {
 export const data: Data[] = [
   {
     title: 'Best Customer Service',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description: 'We do have a dedicated team that possesses more than 6 years of experience in the travel industry and they are ready to make your trip enjoyable.',
     icon: <ArtTrackIcon />,
   },
   {
     title: 'Most Affordable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description: 'No need to surf multiple websites for packages, quotes, travel plans. With our state of the art process we always present you the best deals always.',
     icon: <AttachMoneyIcon />,
   },
   {
     title: 'We operate 24/7',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description: 'We work 24/7 to make sure that we fulfill your needs.',
     icon: <LocalLibraryIcon />,
   },
   {
     title: 'Best vacation deals',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description: 'We provide the best deals for your vacation trips. Contact us sooner and get yourself the best deal ever!',
     icon: <ContactSupportIcon />,
   },
 ]
