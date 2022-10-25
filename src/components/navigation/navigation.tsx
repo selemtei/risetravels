@@ -3,7 +3,7 @@ import Box from '@mui/material/Box'
 import { Link as ScrollLink } from 'react-scroll'
 import { navigations } from './navigation.data'
 
-const Navigation: FC = () => {
+const Navigation: FC = (props) => {
   return (
     <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' } }}>
       {navigations.map(({ path: destination, label }) => (
@@ -49,6 +49,7 @@ const Navigation: FC = () => {
               transform: 'rotate(3deg)',
               '& img': { width: 44, height: 'auto' },
             }}
+            onClick={() => props.setVisibleMenu(false)}
           >
             {/* eslint-disable-next-line */}
             <img src="/images/headline-curve.svg" alt="Headline curve" />
