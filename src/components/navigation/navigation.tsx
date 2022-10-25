@@ -3,7 +3,11 @@ import Box from '@mui/material/Box'
 import { Link as ScrollLink } from 'react-scroll'
 import { navigations } from './navigation.data'
 
-const Navigation: FC = (props) => {
+interface NavigationProps{
+  setVisibleMenu: Function
+}
+
+const Navigation: FC<NavigationProps> = (props: NavigationProps) => {
   return (
     <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' } }}>
       {navigations.map(({ path: destination, label }) => (
