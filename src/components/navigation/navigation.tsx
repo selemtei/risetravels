@@ -4,7 +4,7 @@ import { Link as ScrollLink } from 'react-scroll'
 import { navigations } from './navigation.data'
 
 interface NavigationProps{
-  setVisibleMenu: Function
+  setVisibleMenu: (arg1: boolean) => void
 }
 
 const Navigation: FC<NavigationProps> = (props: NavigationProps) => {
